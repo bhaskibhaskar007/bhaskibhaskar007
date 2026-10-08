@@ -1,0 +1,48 @@
+PROMPT_USED.txt  (reference copy)
+Consolidated brief used to build this GitHub profile. It merges the instructions given across the conversation.
+
+GOAL
+Create a premium, recruiter-focused GitHub profile README for BHASKAR (@bhaskibhaskar007), an Information Science
+Engineering student and AI & Full-Stack Developer. A recruiter should understand within 10-15 seconds: who he is, what he
+builds, which technologies he uses, his strongest projects, that he builds real applications, and how to contact him.
+Never guarantee hiring. Optimise for "worth a closer look".
+
+BRAND
+Name: BHASKAR | Handle: @bhaskibhaskar007 | Title: AI & Full-Stack Developer
+Tagline: "Building practical AI systems from model to interface."
+Core areas: AI, Machine Learning, Computer Vision, Full-Stack Development, Python, FastAPI, React, TypeScript.
+
+STYLE
+Dark, minimal, futuristic, professional, one primary accent, subtle glow, consistent spacing, technical labels.
+Avoid: rainbow gradients, emoji walls, badge walls, GIFs, flashing, gaming look, visitor counters, fake stats, fake stars,
+fake achievements, fake experience, motivational quotes, "open to work" claims.
+
+ANIMATION (max 4)
+1) Hero neural-network SVG (nodes, particles, connection lines, scan line, grid, glow)  2) Typing SVG
+3) Contribution snake  4) Very subtle accent on project cards. Everything else static. Fast loading.
+
+SECTIONS
+Hero -> typing roles (AI & Full-Stack Developer, Computer Vision Developer, Python Developer, Backend Developer,
+AI Engineer) -> About -> Featured Projects (01-06) -> What I Build (6 cards) -> How I Build (pipeline) -> Tech Stack ->
+GitHub (stats + top languages + snake) -> Currently Learning -> Let's Connect -> one-line footer.
+
+PROJECTS (Problem -> Solution -> Technology -> Key feature; GitHub link; live demo only if it exists)
+01 RoadVision AI | 02 AI Life Manager | 03 AI Meeting Summarizer | 04 AI Object Detection |
+05 QR Emergency System | 06 Midnight Munchies Dashboard
+
+ACCURACY RULES
+Inspect the real repositories. Include only technologies actually present. Never invent features, demo links, contact
+details, metrics, or experience. Leave LinkedIn/email as commented placeholders if unknown.
+
+TECHNICAL RULES
+GitHub-compatible Markdown/HTML + SVG + GitHub Actions only. No JavaScript, iframes, autoplay video, or unsupported CSS.
+Mobile-friendly: no very wide layouts; project cards stacked in a single column.
+
+QUALITY CONTROL
+Validate README, SVGs and snake.yml; check repo URLs, live-demo URLs, asset paths and image references; remove fake or
+unnecessary content; check spelling and Markdown; review as HR recruiter, technical recruiter, senior engineer,
+AI/ML engineer and startup founder; fix anything generic, student-like, fake, overdesigned, too long, or hard to navigate.
+
+DELIVERABLE
+One ZIP: bhaskibhaskar007-github-profile.zip containing bhaskibhaskar007/{README.md, PROMPT_USED.txt, assets/*.svg,
+.github/workflows/snake.yml}, plus PowerShell commands to push it to github.com/bhaskibhaskar007/bhaskibhaskar007.
