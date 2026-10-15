@@ -1,18 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 284" width="560" height="284" role="img" aria-label="01 ROADVISION AI">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 165" width="640" height="165" role="img" aria-label="RoadVision AI">
   <defs>
-    <linearGradient id="a-c01" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff" stop-opacity="0"/><stop offset="0.5" stop-color="#8b7cf7"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="7s" repeatCount="indefinite"/></linearGradient>
-    <clipPath id="k-c01"><rect width="560" height="284" rx="12"/></clipPath>
+    <clipPath id="card-clip">
+      <rect width="640" height="165" rx="8"/>
+    </clipPath>
   </defs>
-  <g clip-path="url(#k-c01)">
-    <rect width="560" height="284" fill="#0d1117"/>
-    <rect width="560" height="3" fill="#21262d"/><rect width="560" height="3" fill="url(#a-c01)"/>
-    <text x="540" y="272" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="84" font-weight="800" fill="#131921">01</text>
-    <text x="28" y="38" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#58a6ff">01 / ROADVISION AI</text>
-    <circle cx="446" cy="34" r="3" fill="#3fb950"/><text x="532" y="38" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="1" fill="#6e7681">LIVE DEMO</text>
-    <text x="28" y="68" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.5" fill="#6e7681">PROBLEM</text><text x="28" y="86" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">Municipal road audits need a faster way to find potholes.</text>
-    <text x="28" y="110" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.5" fill="#6e7681">SOLUTION</text><text x="28" y="128" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">YOLO-based detection on images and live camera feeds, with</text><text x="28" y="147" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">severity scoring, served through a FastAPI + React web app.</text>
-    <rect x="28" y="166" width="49" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="52.5" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">YOLO</text><rect x="85" y="166" width="63" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="116.5" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">OpenCV</text><rect x="156" y="166" width="70" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="191.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">FastAPI</text><rect x="234" y="166" width="56" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="262.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">React</text><rect x="298" y="166" width="92" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="344.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">PostgreSQL</text>
-    <line x1="28" y1="206" x2="532" y2="206" stroke="#21262d"/>
-    <text x="28" y="226" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.5" fill="#6e7681">KEY FEATURE</text><text x="28" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">Low / Moderate / Critical severity scoring and auto-generated PDF</text><text x="28" y="263" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">audit reports.</text>
+  <g clip-path="url(#card-clip)">
+    <rect width="640" height="165" fill="#0d1117"/>
+    <text x="24" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">RoadVision AI</text>
+    <text x="616" y="33" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="1" fill="#8b949e">COMPUTER VISION · FULL-STACK</text>
+    <line x1="24" y1="46" x2="616" y2="46" stroke="#21262d" stroke-width="1"/>
+    
+    <text x="24" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">Computer vision system that detects potholes in images and camera feeds,</text>
+    <text x="24" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">estimates severity levels, and supports road inspection reporting.</text>
+    
+    <text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#c9d1d9"><tspan fill="#58a6ff" font-weight="600">Feature:</tspan> Automated severity scoring and structured PDF audit reports.</text>
+    
+    <rect x="24" y="128" width="43" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="45.5" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">YOLO</text>
+    <rect x="75" y="128" width="56" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="103.0" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">OpenCV</text>
+    <rect x="139" y="128" width="63" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="170.5" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">FastAPI</text>
+    <rect x="210" y="128" width="50" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="235.0" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">React</text>
+    <rect x="268" y="128" width="84" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="310.0" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">PostgreSQL</text>
   </g>
+  <rect x="0.5" y="0.5" width="639" height="164" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
 </svg>

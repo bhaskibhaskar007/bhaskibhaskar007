@@ -1,18 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 284" width="560" height="284" role="img" aria-label="02 AI LIFE MANAGER">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 165" width="640" height="165" role="img" aria-label="AI Life Manager">
   <defs>
-    <linearGradient id="a-c02" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff" stop-opacity="0"/><stop offset="0.5" stop-color="#8b7cf7"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="7s" repeatCount="indefinite"/></linearGradient>
-    <clipPath id="k-c02"><rect width="560" height="284" rx="12"/></clipPath>
+    <clipPath id="card-clip">
+      <rect width="640" height="165" rx="8"/>
+    </clipPath>
   </defs>
-  <g clip-path="url(#k-c02)">
-    <rect width="560" height="284" fill="#0d1117"/>
-    <rect width="560" height="3" fill="#21262d"/><rect width="560" height="3" fill="url(#a-c02)"/>
-    <text x="540" y="272" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="84" font-weight="800" fill="#131921">02</text>
-    <text x="28" y="38" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#58a6ff">02 / AI LIFE MANAGER</text>
-    <circle cx="446" cy="34" r="3" fill="#3fb950"/><text x="532" y="38" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="1" fill="#6e7681">LIVE DEMO</text>
-    <text x="28" y="68" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.5" fill="#6e7681">PROBLEM</text><text x="28" y="86" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">Everyday finances, tasks and plans live in separate tools.</text>
-    <text x="28" y="110" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.5" fill="#6e7681">SOLUTION</text><text x="28" y="128" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">An LLM assistant that calls expense, budget, reminder and</text><text x="28" y="147" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">weather tools over MCP, with a React dashboard.</text>
-    <rect x="28" y="166" width="70" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="63.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">FastMCP</text><rect x="106" y="166" width="70" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="141.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">FastAPI</text><rect x="184" y="166" width="56" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="212.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">React</text><rect x="248" y="166" width="92" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="294.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">PostgreSQL</text><rect x="348" y="166" width="70" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="383.0" y="182" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#79c0ff">LLM API</text>
-    <line x1="28" y1="206" x2="532" y2="206" stroke="#21262d"/>
-    <text x="28" y="226" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.5" fill="#6e7681">KEY FEATURE</text><text x="28" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">FastMCP tool server with typed schemas, JWT authentication and a</text><text x="28" y="263" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#c9d1d9">pytest suite.</text>
+  <g clip-path="url(#card-clip)">
+    <rect width="640" height="165" fill="#0d1117"/>
+    <text x="24" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">AI Life Manager</text>
+    <text x="616" y="33" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="1" fill="#8b949e">AI ASSISTANT · MCP</text>
+    <line x1="24" y1="46" x2="616" y2="46" stroke="#21262d" stroke-width="1"/>
+    
+    <text x="24" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">An AI-assisted productivity application that brings everyday tasks,</text>
+    <text x="24" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">expenses, budgets, and reminders into a single unified interface.</text>
+    
+    <text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#c9d1d9"><tspan fill="#58a6ff" font-weight="600">Feature:</tspan> FastMCP tool server integration with typed schemas and JWT auth.</text>
+    
+    <rect x="24" y="128" width="63" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="55.5" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">FastAPI</text>
+    <rect x="95" y="128" width="50" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="120.0" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">React</text>
+    <rect x="153" y="128" width="84" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="195.0" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">PostgreSQL</text>
+    <rect x="245" y="128" width="63" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="276.5" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">FastMCP</text>
+    <rect x="316" y="128" width="70" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/><text x="351.0" y="143" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#79c0ff">LLM APIs</text>
   </g>
+  <rect x="0.5" y="0.5" width="639" height="164" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
 </svg>
